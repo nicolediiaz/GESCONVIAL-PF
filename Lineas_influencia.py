@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from math import *
 from itertools import accumulate
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 
 class Influence_Lines():
