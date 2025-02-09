@@ -12,7 +12,7 @@ with st.sidebar:
 
     r1, r2 = st.columns([1,2], gap="medium")
     with r1: "N° de tramos"
-    with r2: nbeams = st.number_input("nbeams", value = 10, min_value=1, step = 1, label_visibility="collapsed")
+    with r2: nbeams = st.number_input("nbeams", value = 5, min_value=1, step = 1, label_visibility="collapsed")
     # NOTA: los valores deben ser del mismo formato, o es int o float
 
     L = []; EI = []
